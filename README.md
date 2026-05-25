@@ -13,6 +13,13 @@ This MVP exists to prove two core ideas:
 - Content can be transformed into structured understanding
 - Structured understanding can be derived across independent PDS nodes without central control
 
+## Achitecture Diagrams
+### Core MVP Architecture
+![MVP Architecture](docs/diagrams/MVP-Architecture.png)
+
+### Architecture at Scale
+![Architecture at Scale](docs/diagrams/Architecture-at-Scale.png)
+
 ## System Components
 ### 1. Personal Data Server (PDS)
 Each PDS:
@@ -50,13 +57,6 @@ The App layer:
 - shows methods and vote signals
 
 It contains no structural logic.
-
-## Achitecture Diagrams
-### Core MVP Architecture
-![MVP Architecture](docs/diagrams/MVP-Architecture.png)
-
-### Architecture at Scale
-![Architecture at Scale](docs/diagrams/Architecture-at-Scale.png)
 
 ## Data Model
 The system defines three core record types:
