@@ -51,6 +51,13 @@ The App layer:
 
 It contains no structural logic.
 
+## Achitecture Diagrams
+### Core MVP Architecture
+![MVP Architecture](docs/diagrams/MVP-Architecture.png)
+
+### Architecture at Scale
+![Architecture at Scale](docs/diagrams/Architecture-at-Scale.png)
+
 ## Data Model
 The system defines three core record types:
 - `blue.article` - procedural learning guide (how-to format)
@@ -62,9 +69,6 @@ All records are:
 - CID-addressed
 - stored in PDS nodes
 - globally referenceable via URI
-
-## Core Architecture Flow
-> TODO: Add diagram
 
 ## Key System Properties
 ### Decentralised
