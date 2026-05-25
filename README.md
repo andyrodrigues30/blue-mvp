@@ -13,6 +13,13 @@ This MVP exists to prove two core ideas:
 - Content can be transformed into structured understanding
 - Structured understanding can be derived across independent PDS nodes without central control
 
+## Achitecture Diagrams
+### Core MVP Architecture
+![MVP Architecture](docs/diagrams/MVP-Architecture.png)
+
+### Architecture at Scale
+![Architecture at Scale](docs/diagrams/Architecture-at-Scale.png)
+
 ## System Components
 ### 1. Personal Data Server (PDS)
 Each PDS:
@@ -62,9 +69,6 @@ All records are:
 - CID-addressed
 - stored in PDS nodes
 - globally referenceable via URI
-
-## Core Architecture Flow
-> TODO: Add diagram
 
 ## Key System Properties
 ### Decentralised
